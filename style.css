@@ -1,0 +1,950 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+        /*header Styling*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin:0 auto;
+    font-family:'Montserrat' ,sans-serif;
+    position: relative;
+}
+.wrapper{
+    background-image: url(assets/main-image-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 600px; 
+}
+
+.logo img{
+    
+    margin-top: 60px;
+    margin-left: 200px;
+}
+    
+
+
+.bar{
+    
+margin-top:-65px;
+
+padding:0;
+    
+}
+
+.bar ul{
+    
+     float:left;
+    margin-left: 450px;
+}
+
+.bar ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    margin-left:30px;
+    padding:10px;
+   
+    
+}
+
+.bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+
+
+.bar ul li a:hover{
+    border-bottom: 3px solid #eeb013;
+    
+}
+.bar ul li a.active{
+     border-bottom: 3px solid #eeb013;
+    
+}
+
+.nest ul{
+    
+position: absolute;
+    top:70px;
+    right:55px;
+}
+
+.headtop{
+
+position: relative;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.wrapper h3{
+    position: absolute;
+    top:100px;
+    left:500px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    font-size: 2rem;
+
+}
+.wrapper h1{
+    
+    position: absolute;
+    top:150px;
+    left:460px;
+    padding:10px 70px;
+    font-size:4rem;;
+    border: 3px solid white;
+    
+}
+.wrapper h5
+{
+     position: absolute;
+    top:300px;
+    left:700px;
+    border: 1px solid white;
+    padding:10px 30px;
+    font-size: 0.5rem;
+        
+}
+
+/*header styling ends*/
+
+
+/*section 1 styling*/
+
+.new{
+    width:100%;
+    margin-left:15%;
+}
+
+.new img{
+    float:left;
+    width:20%;
+    display: block;
+    margin-top:2%;
+    margin-left:2%
+    
+}
+
+.container{
+    position:relative;
+}
+
+.text{
+    max-width:400px;
+    color:white;
+    text-transform:uppercase;
+    border: 2px solid white;
+    line-height:1px;
+    padding:0px 50px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    position: absolute;
+    top:180px;
+    left:60px;
+    
+}
+
+
+container{
+    position:relative;
+}
+
+.text{
+    max-width:400px;
+    color:white;
+    text-transform:uppercase;
+    border: 2px solid white;
+    line-height:1px;
+    padding:0px 50px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    position: absolute;
+    top:180px;
+    left:60px;
+    
+}
+.conatinerMiddle{
+    position: relative;
+}
+
+.textMiddle{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size:20px;
+    position:absolute;
+    top:850px;
+    left:600px;
+    color:white;
+}
+
+.textMiddle span{
+    font-size:50px;
+}
+.conatinerBottom{
+    position: relative;
+}
+
+.textBottom{
+    
+    color:white;
+    text-transform:uppercase;
+    border: 2px solid white;
+    line-height:1px;
+    padding:0px 50px;
+    word-spacing: 4px;
+    position: absolute;
+    top:900px;
+    left:900px;
+    
+}
+
+/*section2 starts*/
+
+.news{
+    clear: both;
+    margin:100px auto;
+    max-width:250px;
+}
+
+.news h2{
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid gainsboro;
+    padding:10px;
+    font-size:2rem;
+    font-family: "Crimson+Text" , sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.wrappermen{
+     margin:20px auto;
+    max-width:500px;
+    
+}
+.wrappermen ul  li {
+  list-style-type: none;
+    display: inline-block;
+    padding-left:25px   
+}
+
+.wrappermen a{
+    font-family: "Crimson+Text", sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+.soft{
+    margin: 100px auto;
+    max-width:1280px;
+}
+
+.capture {
+    max-width:100%;
+    float: left;
+    margin-left:35px;
+    margin-bottom:50px;
+    position: relative;
+}
+
+.capture img{
+    max-width:100%;
+    height:300px;
+    
+}
+
+.capture figcaption{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight:bolder;
+    font-family: "Crimson+Text", sans-serif;
+}
+
+.capture div{
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: 500;
+   
+}
+
+.capture span{
+    margin-left: 15px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.capture figcaption:hover{
+    color: #eeb013;
+}
+
+.des{
+    text-transform: uppercase;
+    border: 2px solid black;
+    max-width:60px;
+    padding:10px;
+    font-family: "Crimson+Text", sans-serif;
+    font-size:1.4rem;
+    position:absolute;
+   top:-10px;
+    left:10px;    
+    
+}
+
+.sale{
+    
+    font-family: "Crimson+Text", sans-serif;
+    border: 1px solid black;
+    padding: 20px 40px ;
+    background-color: #eeb013;
+    position:absolute;
+    top:210px;
+    
+    
+}
+
+.sale a{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* section 3 starts*/
+
+
+.asset{
+    position: relative;
+}
+.asset img{
+
+    height:600px;
+    max-width:100%;
+    
+}
+
+.reclaim{
+    position: absolute;
+    top:80px;
+    left:750px;    
+}
+.reclaim h2, .assos h2{
+    text-transform: uppercase;
+   font-family="Montserrat", "sans-         serif";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.reclaim p, .assos p{
+    margin:20px auto;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+.reclaim span{
+   margin: 20px auto;
+    display: block;
+    color: #eeb013;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.reclaim div, .assos div{
+    margin:20px auto;
+    border:1px solid black;
+    max-width:240px;
+    padding:20px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position:absolute;
+    background-color: #eeb013;
+}
+.reclaim div a, .assos div a{
+    color: black;
+    text-decoration: none;
+}
+.crop {
+    position:relative;
+   margin-top:-5px;
+}
+.assos{
+    position: absolute;
+    top:80px;
+    left:300px;
+}
+
+/* section 4 starts*/
+
+.cons{
+    margin:60px auto;
+}
+
+.cons ul {
+   list-style-type: none;
+    max-width:100%;
+}
+.cons ul li{
+    max-width:33%;
+    float: left;
+    margin:20px auto;
+    text-align: center;
+}
+
+.cons ul li i{
+    font-size:30px;
+    border :2px solid black;
+    padding:15px;
+    border-radius: 50%;
+}
+
+.cons ul li i:hover{
+    
+    font-size:50px;
+    background-color:#eeb013;
+    cursor:pointer;
+     
+}
+
+p.shop 
+{
+    font-weight:bolder;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+
+ span.pad {
+    font-style:italic;
+    font-size:13px;
+    letter-spacing: 1.2px;
+}
+
+.smile{
+    
+    max-width:100%;
+    clear:both;
+  
+}
+
+.smile img{
+    max-width: 33%;
+    float: left;
+    
+       
+}
+
+/* setion 5 starts*/
+
+.fashion {
+     clear: both;
+    margin: 80px auto;
+}
+
+.fass h2{
+    
+    border:2px solid gainsboro;
+    max-width:250px;
+    text-align: center;
+   margin:auto;
+    text-transform:uppercase;
+    padding:5px 10px;
+    font-family:"Montserrat", sans-serif;
+    font-size:20px;
+    font-weight: bolder;
+    }
+
+
+
+
+
+.natasha{
+    max-width: 100%; 
+    margin-left: 200px;
+   
+ }
+
+.natasha li{
+    list-style-type: none;
+    float: left;
+    max-width:33%;
+   
+  
+}
+
+.natasha li figure {
+    margin: 40px auto;
+    padding:10px;      
+   
+}
+
+.natasha li figure img{
+    width:300px;
+    height:300px;
+    
+}
+
+.natasha figcaption{
+    
+    padding-top:10px;
+    line-height:1.5;
+    text-transform: capitalize;
+    font-weight:bold; 
+}
+
+.natasha figcaption span{
+    color:#eeb013;
+}
+
+.slider{
+    position:relative;
+}
+
+.left{
+  
+    position:absolute;
+    top:130px;
+    left:0px;
+    border:1px dashed #eeb013;
+    padding:10px 15px;
+    cursor: pointer;
+      
+}
+
+.right{
+    position:absolute;
+    top:130px;
+    right:0px;
+    border:1px dashed #eeb013;
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+.left:hover,.right:hover{
+    background-color: gainsboro;
+    padding:15px 20px;
+}
+.play{
+    position: relative;
+}
+.player i{
+    
+    position: absolute;
+    left: 1000px;
+    top:4800px;
+    position: 
+    color:white;
+    font-size: 50px;
+    border: 2px solid gainsboro;;
+    border-radius:50%;
+    padding:10px;
+    background-color:#;
+    cursor:pointer;
+    text-decoration: none;
+    color:gainsboro;
+}
+
+.player i:hover{
+    color:floralwhite;
+    font-size:80px;
+}
+.photo{
+    clear:both;
+     margin:-5px auto;
+     max-width: 100%;
+    }
+
+.comment{
+   
+   position :relative;
+     
+}
+.bookark{
+    margin: 0 auto;
+    
+}
+.jun{
+   
+    position:absolute;
+    top:-40px;
+    left: 225px;
+    
+   
+    
+}
+.jun:before, .eye:before, .graph:before{
+    content: '';
+    width:260px;
+    height: 0.5px;
+    background-color: gainsboro;
+    position: absolute;
+    left:20px;
+    
+}
+
+.jun:after, .eye:after, .graph:after{
+    content: '';
+    width:260px;
+    height: 0.5px;
+    background-color: gainsboro;
+    position: absolute;
+    left:20px;
+    top:35px;
+    
+}
+
+.eye{
+  
+    position:absolute;
+    top:-40px;
+    left: 545px;  
+    padding: 2px;
+     
+    
+}
+
+.graph{
+   
+    position:absolute;
+    top:-40px;
+    left: 870px;
+    position: relative;
+    
+    
+}
+.jun li, .eye li, .graph li {
+    
+   margin-left:10px;
+    padding:10px;
+    float:left;
+    list-style-type: none;
+    font-size:14px;
+    color:gainsboro;
+  
+
+}
+
+.jun li span, .eye li span, .graph li span{
+   margin-left:5px;
+}
+
+.sty{
+    text-transform: uppercase; 
+    font-size:12px;
+    font-weight: bolder;
+    background: #eeb013;
+    color: white;  
+    padding:20px 3px 8px; 
+     border: 1px solid gainsboro;
+   font-style: italic;
+    position: relative;
+    position: absolute;
+    top:-15px;
+    left:250px;
+    
+}
+
+.sty span{
+    display:block;
+    
+}
+.problem{
+    position:relative;
+}
+.design{
+    clear: both;
+    margin:50px auto;
+    max-width: 100%;
+    position: absolute;
+    left:250px
+    
+}
+
+.instinct {
+    max-width:26%;
+   float: left;
+   padding-right:20px;
+    margin-right: 10px;
+}
+.instinct p{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color:dimgrey;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+  
+.instinct  h4{
+    margin: 60px 2px;
+    text-transform: uppercase;
+   
+    border: 1px solid gainsboro;
+   width:50%;
+    text-align: center;
+    padding:15px;
+    letter-spacing: 1px;
+}
+
+/*section 6 starts*/
+
+.restaurant{
+    clear:both;
+    margin:400px auto;
+}
+
+.mountain h2{
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid gainsboro;
+    margin:50px auto;
+    width:18%;
+    padding:20px;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+.retro {
+    margin: 0px auto;
+    text-align: center;
+    width:70%;
+}
+
+.retro p{
+    color: grey;
+    font-style:italic;
+    text-transform:capitalize;
+    margin-bottom: 50px;
+}
+
+.retro span{
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size:1.3rem;
+    
+}
+.america{
+    color:gainsboro;
+    font-style:italic;
+    
+}
+
+.brand{
+    max-width:80%;
+     margin:0px auto;
+}
+
+.brand img{
+   max-width:100%;
+   margin-left: 135px;
+       
+}
+
+
+.brand img:hover{
+transform:scale(2);
+}
+
+/* section 7 start*/
+.look{
+    margin-top:-300px;
+    position:relative;
+}
+
+.look figure{
+    margin: 0;
+    padding:0;
+   
+}
+
+.look figure img{
+    max-width:100%;
+}
+
+.texture{
+    position:absolute;
+    top:100px;
+    left:150px;
+    max-width: 40%;
+    text-align: center;
+    
+}
+
+.texture h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+   
+}
+.texture p{
+    font-style: italic;
+    color: dimgrey;
+    font-size: 12px;
+    padding-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.texture span{
+    border: 1px solid black;
+    padding:25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:white;
+    background-color: black;
+    font-weight:bolder;
+    cursor:pointer;
+   
+}
+
+.texture a{
+    text-decoration: none;
+}
+
+/*footer starts*/
+
+.london{
+    max-width:100%;
+    margin:-5px auto;
+  border:1px solid black ;
+    background:black;
+    
+}
+.agency{
+    
+    max-width:100%;
+    margin-left:150px;
+    position: relative;
+    
+}
+
+.quotes{
+    
+    max-width:25%;
+    float:left;
+   font-size:1.3rem;
+    padding:12px;
+    position:relative;
+    margin-top: 40px;
+    color:white;
+}
+
+.quotes h5{
+    text-transform: uppercase;
+    font-weight:bolder;
+    letter-spacing:2px;  
+    margin-bottom:50px;
+    
+}
+
+.page h5:after{
+    content:"";
+    width:30px;
+    height: 2px;
+    background: #eeb013;
+    position:absolute;
+    top:50px;
+    left:12px;
+}
+
+.quotes h5:hover{
+    color:#eeb013;
+}
+
+.quotes p{
+    margin-bottom:20px;
+    letter-spacing: 1px;
+    color:grey;
+    text-transform: capitalize;
+   
+}
+
+.page nav ul{
+   
+    list-style: none;
+    margin-top:40px;
+    margin-left:-45px;   
+}
+.page ul li{
+    padding-bottom:34px;
+   
+}
+
+.page ul li a{
+    text-decoration: none;
+    color:grey;
+     text-transform: capitalize;
+}
+}
+.page ul li a:hover{
+    color:#eeb013;
+    font-size:1.8rem;
+}
+
+.page{
+    padding:12px;
+}
+
+.page::before{
+    content:"";
+    width:0.5px;
+    height:250px;
+    background:grey;
+    position: absolute;
+    top:95px;
+    left:-1px;
+    border: 0.2px solid grey;
+}
+.page figure{
+    margin-left:10px;
+}
+
+.copy{
+    clear:both;
+    color:grey;
+    max-width:100%;
+
+}
+
+.copy div{
+    float:right;
+}
+.google span i{
+    
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
